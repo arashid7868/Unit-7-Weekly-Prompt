@@ -2,7 +2,7 @@
 
 In Chapter 14, you will note that in the code example for the Button class, the author has included a triple-quoted strings for the class, and functions. In fact, in most of the code provided in the book, triple-quoted strings have been provided for modules, methods, functions and classes. Discuss how these docstrings help programmers with their workflow. Remember your experience and the internet are your friends.
 
-# Answer
+#Answer
 
 Python docstrings enhance the programmer's productivity by making the code understandable, maintainable, reusable, and easy to work with. A docstring is a string literal that comes as the first statement of a module, class, function, or method. A docstring is not like a normal comment; as with a normal comment, the string is associated with the documented object, and can be accessed via the object's __doc__ attribute. The official rules of Python suggest that triple double quotes be used, and that the descriptions of a component's purpose and behavior be clear (Goodger & van Rossum, 2001).
 
@@ -12,7 +12,7 @@ Docstrings also enable better collaboration and maintenance. After a few weeks o
 
 Docstrings are supposed to be correct, concise, and kept up-to-date as code changes, though. They are not intended to substitute for meaningful names, tests, or well-structured code, but are meant to augment these practices. When developing a program, it is important for programmers to consider the purpose of each component and its responsibilities; writing docstrings is a way to help them do this. This enhances the readability, minimises confusion, enhances team working, and facilitates software maintenance during the software development process.
 
-# References
+#References
 
 Goodger, D., & van Rossum, G. (2001, June 13). PEP 257 – Docstring conventions. Python Enhancement Proposals. https://peps.python.org/pep-0257/
 
